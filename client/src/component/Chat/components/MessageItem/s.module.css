@@ -1,0 +1,27 @@
+.messageItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageItem p {
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: blue;
+    max-width: 100%;
+    width: max-content;
+}
+
+.messageItem.you {
+    align-items: end;
+}
+
+.messageItem.you p {
+    background: green;
+}
+
+.messageItem.you span {
+    display: block;
+    width: max-content;
+}

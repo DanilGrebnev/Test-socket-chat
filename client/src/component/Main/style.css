@@ -1,0 +1,19 @@
+#MainPage {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100dvh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: fit-content;
+    margin: auto;
+}
+
+form button {
+    width: fit-content;
+    padding: 5px 30px;
+}
